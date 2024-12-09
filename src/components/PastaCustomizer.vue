@@ -74,17 +74,14 @@ export default {
 
     <div class="options-group">
       <div class="option">
-        <h3>Choose Your Pasta Base:</h3>
         <pasta-base-selector v-model="selectedBase"></pasta-base-selector>
       </div>
 
       <div class="option">
-        <h3>Select Your Pasta Sauce:</h3>
         <pasta-sauce-selector v-model="selectedSauce"></pasta-sauce-selector>
       </div>
 
       <div class="option">
-        <h3>Choose Your Toppings:</h3>
         <pasta-toppings-selector v-model="selectedToppings"></pasta-toppings-selector>
       </div>
     </div>

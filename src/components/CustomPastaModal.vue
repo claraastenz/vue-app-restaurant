@@ -54,7 +54,7 @@ export default {
 }
 
 .modal-content {
-  background: #fff;
+  background: white;
   padding: 20px;
   border-radius: 8px;
   text-align: center;
@@ -67,11 +67,13 @@ export default {
   font-size: 1.8rem;
   font-weight: bold;
   margin-bottom: 15px;
+  color: black;
 }
 
 .modal-body p {
   font-size: 1.2rem;
   margin-bottom: 10px;
+  color: black;
 }
 
 .modal-content button {

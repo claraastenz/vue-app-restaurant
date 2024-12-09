@@ -206,7 +206,7 @@ export default {
         image-src="/photos/mediterraneancuisine.jpg"
         :title="'Welcome to Cedar Grill'"
         :description="`Experience the finest Mediterranean cuisine in a warm and inviting atmosphere. At Cedar Grill, we blend fresh, locally sourced ingredients with traditional flavors to create a unique and unforgettable dining experience. Whether you're here for a romantic dinner or a family gathering, our team is dedicated to making your visit truly special.`"
-        :menu-link="'menu.html'"
+        menuLink="/menu"
     ></Restaurant-card>
 
     <div class="create-pasta-section text-center my-5">
