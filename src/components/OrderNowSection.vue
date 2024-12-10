@@ -43,9 +43,9 @@ export default {
   <div class="position-relative overflow-hidden text-center bg-body-tertiary">
     <div class="col-md-12 p-lg-5 mx-auto my-5 text-overlay">
       <h1 class="display-3 fw-bold">
-        <a :href="link" class="text-decoration-none text-light">{{ headingText }}</a>
+        <router-link :to="link" class="text-decoration-none text-light">{{ headingText }}</router-link>
       </h1>
-      <a :href="link" class="btn btn-primary">{{ buttonText }}</a>
+      <router-link :to="link" class="btn btn-primary">{{ buttonText }}</router-link>
 
       <div class="d-flex justify-content-between align-items-start mt-3">
 

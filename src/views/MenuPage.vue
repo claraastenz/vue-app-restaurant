@@ -105,7 +105,7 @@ export default {
 
     setTimeout(() => {
       this.menuItems = [
-        new MenuItem(1, "The Signature Pasta", "Handcrafted pasta in a rich tomato sauce, topped with fresh basil and Parmesan.", 22.99, "/photos/pasta.jpg.jpg"),
+        new MenuItem(1, "Spaghetti", "Handcrafted pasta in a rich tomato sauce, topped with fresh basil and Parmesan.", 22.99, "/photos/pasta.jpg.jpg"),
         new MenuItem(2, "Chicken Florentine", "Tender chicken breast sautéed with garlic and spinach, served in a creamy white wine sauce.", 24.99, "/photos/chicken.jpg"),
         new MenuItem(3, "Lasagna", "Layers of tender pasta, rich meat sauce, and melted mozzarella, baked to perfection.", 19.99, "/photos/lasagna.jpg"),
         new MenuItem(4, "Tomato Soup", "Roasted garlic, chicken broth, heavy cream, diced tomatoes. A symphony of flavors", 14.99, "/photos/tomatosoup.png"),

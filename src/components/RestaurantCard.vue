@@ -29,7 +29,7 @@ export default {
     <div class="restaurant-info">
       <h2>{{ title }}</h2>
       <p>{{ description }}</p>
-      <a :href="menuLink" class="btn btn-primary">VIEW FOOD MENU</a>
+      <router-link :to="menuLink" class="btn btn-primary">VIEW FOOD MENU</router-link>
     </div>
   </div>
 </template>
